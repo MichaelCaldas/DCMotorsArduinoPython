@@ -1,5 +1,4 @@
 import serial
-import time
 
 class Arduino:
     def __init__(self):
