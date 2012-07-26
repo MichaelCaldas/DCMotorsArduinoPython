@@ -83,7 +83,7 @@ void loop() {
   digitalWrite(breakA, LOW);
   analogWrite(pwmA, 96);
  
- //Configuring the motor B to operate with partal speed.
+ //Configuring the motor B to operate with partial speed.
   digitalWrite(dirB, LOW);
   digitalWrite(breakB, LOW);
   analogWrite(pwmB, 96);
@@ -93,7 +93,7 @@ void loop() {
  
  /*This method allows to set the direction to the right.*/
  void move_to_right(){
-  //Configuring the motor A to operate with partal speed.
+  //Configuring the motor A to operate with partial speed.
   digitalWrite(dirB, HIGH);
   digitalWrite(breakB, LOW);
   analogWrite(pwmB, 96);
@@ -107,7 +107,7 @@ void loop() {
  
  /*This method allows to set the direction to the left.*/
  void move_to_left(){
-  //Configuring the motor A to operate with full speed.
+  //Configuring the motor A to operate with partial speed.
   digitalWrite(dirA, HIGH);
   digitalWrite(breakA, LOW);
   analogWrite(pwmA, 96);
